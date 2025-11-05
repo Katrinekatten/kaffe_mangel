@@ -40,3 +40,14 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+.color_change {
+  fill: #5f4477;
+}
+
+.kaffegone {
+  display: none;
+}
+#cls-6 {
+  fill: #5f4477;
+}
