@@ -34,20 +34,29 @@
     </header>
 
     <main>
-      <h1>INDBERET</h1>
-      <section id="form-section">
-        <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
-        </article>
-        <form id="webform"></form>
+      <section class="h1webformular">
+        <h1>Ansøg om støtte</h1>
       </section>
-      <section id="form-summary">
-        <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
-        </article>
+      <section>
+        <h3>Ansøger du på vegne af dig selv, eller en pårørerende?</h3>
+        <div>
+          <input type="checkbox" />
+          <p>Jeg søger på vegne af mig selv</p>
+        </div>
+        <div>
+          <input type="checkbox" />
+          <p>Jeg søger på vegne af en pårørende</p>
+        </div>
       </section>
+      <section>
+        <h2>Personlige oplysninger</h2>
+        <h2>Fulde navn</h2>
+        <input type="text" name="Fulde navn" id="" />
+        <h2>CPR-Nummer</h2>
+        <input type="text" name="CPR-Nummer" id="" />
+      </section>
+
+      <button id="ansogknap"></button>
     </main>
     <footer>
       <nav class="some">
