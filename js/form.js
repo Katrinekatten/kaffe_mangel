@@ -64,3 +64,4 @@ function handleSubmit(event) {
   // Nulstil formular
   form.reset();
 }
+//tjek//
