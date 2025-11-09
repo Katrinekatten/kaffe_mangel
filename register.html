@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -34,29 +34,80 @@
     </header>
 
     <main>
+      <h1 id="h1webformular">Ansøg om støtte</h1>
       <section class="h1webformular">
-        <h1>Ansøg om støtte</h1>
-      </section>
-      <section>
-        <h3>Ansøger du på vegne af dig selv, eller en pårørerende?</h3>
-        <div>
-          <input type="checkbox" />
-          <p>Jeg søger på vegne af mig selv</p>
-        </div>
-        <div>
-          <input type="checkbox" />
-          <p>Jeg søger på vegne af en pårørende</p>
-        </div>
-      </section>
-      <section>
-        <h2>Personlige oplysninger</h2>
-        <h2>Fulde navn</h2>
-        <input type="text" name="Fulde navn" id="" />
-        <h2>CPR-Nummer</h2>
-        <input type="text" name="CPR-Nummer" id="" />
+        <form aria-label="Ansøg om støtte ved mangel på kaffe">
+          <section class="formsection1">
+            <h3></h3>
+            <div class="formgroup">
+              <label for="hvem"
+                >Ansøger du på vegne af dig selv, eller en pårørerende?</label
+              >
+              <input
+                type="radio"
+                name="hvem"
+                id="mig_selv"
+                value="dig selv"
+                required
+              />
+              Jeg søger på vegne af mig selv
+              <br />
+              <input
+                type="radio"
+                name="hvem"
+                id="paarorende"
+                value="en pårørende"
+              />
+              Jeg søger på vegne af en pårørende
+            </div>
+          </section>
+          <section class="formgroup">
+            <h2>Personlige oplysninger</h2>
+            <h2>Fulde navn</h2>
+            <label for="fulde_navn"></label>
+            <input type="text" id="fulde_navn" name="fulde_navn" required />
+
+            <h2>CPR-Nummer</h2>
+            <label for="cpr"></label>
+            <input type="text" name="cpr" id="cpr" minlength="10" required />
+          </section>
+          <section class="formgroup">
+            <h2>Hvor mange kopper kaffe drikker du i gennemsnit om dagen?</h2>
+            <select id="antal_kaffe" name="antal_kaffe" required>
+              <option name="antal_kaffe" value=">2">Mere end 2 kopper</option>
+              <option name="antal_kaffe" value="5">Mindre end 5 kopper</option>
+              <option name="antal_kaffe" value="5+">
+                5 eller flere kopper
+              </option>
+              <option name="antal_kaffe" value="10+">10+ kopper</option>
+            </select>
+          </section>
+
+          <button type="submit" id="knap">Ansøg</button>
+        </form>
       </section>
 
-      <button id="ansogknap"></button>
+      <!-- <section>
+        <h2>Bekræftigelse på ansøgning</h2>
+
+        <p>
+          Jeg søger på vegne af mig selv: <span id="mig_selv_output"></span>
+        </p>
+        <p>
+          Jeg søger på vegne af en pårørerende:
+          <span id="paarorende_output"></span>
+        </p>
+        <p>Fulde navn: <span id="fulde_navn_output"></span></p>
+        <p>CPR-Nummer: <span id="cpr_output"></span></p>
+        <p>
+          Antal af kopper kaffe pr. dag:
+          <span id="antal_kaffe_output"></span>
+        </p>
+      </section> -->
+      <section>
+        <h2>Bekræftelse på ansøgning</h2>
+        <div id="bekraeftelse"></div>
+      </section>
     </main>
     <footer>
       <nav class="some">
@@ -85,6 +136,7 @@
       </nav>
     </footer>
     <script src="js/burger.js"></script>
+    <script src="js/form.js"></script>
     <!-- <script src="js/main.js"></script> -->
   </body>
 </html>

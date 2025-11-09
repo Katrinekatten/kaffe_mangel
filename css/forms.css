@@ -1,17 +1,13 @@
 #webform {
-  background-color: var(--form-background-color);
 }
 
 #form-section,
 #form-summary {
-  background-color: var(--info-background-color);
   padding: 0;
 }
 #form-summary h2 {
   line-height: 3rem;
   text-align: center;
-  background-color: var(--headline-bg-color-inverted);
-  color: var(--headline-color-inverted);
   padding-top: 5px;
 }
 #form-summary h3 {
@@ -29,4 +25,64 @@
   line-height: 1.3;
   margin: 0 0 1.2rem 0;
   padding: 0;
+}
+
+.h1webformular {
+  color: #000;
+}
+
+/* Colors */
+.formsection1 {
+  background-color: #b67f81;
+}
+.formsection1 h3 {
+  color: #111010;
+}
+#h1webformular {
+  color: white;
+  background-color: #b67f81;
+}
+
+.outputbox {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 200px;
+  border: #5f4477 solid 2px;
+}
+/* GRID */
+
+/* KNAP */
+#knap {
+  color: #432919;
+  border: solid 4px #5f4477;
+  width: 150px;
+  height: 75px;
+  border-radius: 5px;
+  background-color: #f2c045;
+  font-size: 32px;
+}
+:focus-visible {
+  /* Focus states */
+}
+button:hover {
+  border: 5px;
+  /* Hover states */
+}
+button:active {
+  outline: 5px solid #5f4477;
+  /* Pressed states */
+}
+
+.formsection1 p {
+  color: black;
+}
+p {
+  color: black;
+}
+
+.formgroup:has(:required) {
+  label::after {
+    content: " *";
+    color: red;
+  }
 }
