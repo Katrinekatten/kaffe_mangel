@@ -47,7 +47,7 @@
                 type="radio"
                 name="hvem"
                 id="mig_selv"
-                value="Jeg søger på vegne af mig selv"
+                value="dig selv"
                 required
               />
               Jeg søger på vegne af mig selv
@@ -56,7 +56,7 @@
                 type="radio"
                 name="hvem"
                 id="paarorende"
-                value="Jeg søger på vegne af en pårørende"
+                value="en pårørende"
               />
               Jeg søger på vegne af en pårørende
             </div>
@@ -73,7 +73,7 @@
           </section>
           <section class="formgroup">
             <h2>Hvor mange kopper kaffe drikker du i gennemsnit om dagen?</h2>
-            <select name="antal" id="antal_kaffe" name="antal_kaffe" required>
+            <select id="antal_kaffe" name="antal_kaffe" required>
               <option name="antal_kaffe" value=">2">Mere end 2 kopper</option>
               <option name="antal_kaffe" value="5">Mindre end 5 kopper</option>
               <option name="antal_kaffe" value="5+">
@@ -87,7 +87,7 @@
         </form>
       </section>
 
-      <section>
+      <!-- <section>
         <h2>Bekræftigelse på ansøgning</h2>
 
         <p>
@@ -103,6 +103,10 @@
           Antal af kopper kaffe pr. dag:
           <span id="antal_kaffe_output"></span>
         </p>
+      </section> -->
+      <section>
+        <h2>Bekræftelse på ansøgning</h2>
+        <div id="bekraeftelse"></div>
       </section>
     </main>
     <footer>
