@@ -1,9 +1,9 @@
 :root {
   /* Colours */
-  --color-bg: #fceb94; /* page background /*
+  --color-bg: #d7d1c5; /* page background /*
 
   /* Header */
-  --color-head-bg: #ff4b00;
+  --color-head-bg: #5f4477;
 
   /* Logotype */
   --color-logotype-bg: #000;
@@ -34,7 +34,7 @@
   --margin-head-bottom: 5px;
 
   /* Borders */
-  --border-radius: 16px;
+  --border-radius: 0px;
 
   /* Cards */
   --color-card-bg: #fff;
