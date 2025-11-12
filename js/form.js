@@ -55,7 +55,7 @@ function handleSubmit(event) {
     <p>Du har søgt på vegne af: <strong>${hvem}</strong>.</p>
     <p>Vi har registreret dit CPR-nummer: <strong>${cpr}</strong>.</p>
     <p>Du drikker ca. <strong>${antalKaffe}</strong> kopper kaffe om dagen.</p>
-    <p>Vi behandler nu din sag. Du kan forvente at få svar i din e-boks inden for 2 uger.</p>
+    <p id="vibehandlernudinsag">Vi behandler nu din sag. Du kan forvente at få svar i din e-boks inden for 2 uger.</p>
   `;
 
   // Vis beskeden på siden

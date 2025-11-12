@@ -26,31 +26,52 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
-
-.h1webformular {
-  color: #000;
+/* OVERSKRIFT */
+#h1webformular {
+  font-size: 48px;
 }
-
-/* Colors */
+/* FORMGROUP 1 */
 .formsection1 {
   background-color: #b67f81;
 }
-.formsection1 h3 {
-  color: #111010;
-}
-#h1webformular {
+#labelformgroup1 {
   color: white;
-  background-color: #b67f81;
+  font-size: 32px;
+}
+/* FORMGROUP 2 */
+#fulde_navn {
+  background-color: white;
+  border: none; width: 650px;
+}
+#cpr {
+  background-color: white;
+  border: none; width: 650px;
+}
+/* FORMGROUP 3 */
+#antal_kaffe {
+  background-color:#f2c045 ; border-radius: 0%; color: #432919; border: solid #5f4477; width: 200px;
+}
+#formgroup3_h2 {
+  color: #432919;
 }
 
-.outputbox {
-  background-color: #fff;
-  border-radius: 5px;
-  height: 200px;
+#formgroup3 {background-color: #b67f81; ;}
+.grid_submit {display: grid; grid-template-columns: 2fr 1fr; column-gap: 20px;}
+/* OUTPUTBOX */
+.bekraeftelse {
+  background-color: #f2c045;
+  height: 250px;
   border: #5f4477 solid 2px;
+  color: #432919; 
+}
+#vibehandlernudinsag {
+  font-style: italic;
+  margin-top: 10px;
 }
 /* GRID */
-
+form {
+  width: 700px;
+}
 /* KNAP */
 #knap {
   color: #432919;
@@ -60,9 +81,11 @@
   border-radius: 5px;
   background-color: #f2c045;
   font-size: 32px;
+  align-self: center;
+  justify-content: center;
+  
 }
-:focus-visible {
-  /* Focus states */
+
 }
 button:hover {
   border: 5px;
@@ -71,13 +94,6 @@ button:hover {
 button:active {
   outline: 5px solid #5f4477;
   /* Pressed states */
-}
-
-.formsection1 p {
-  color: black;
-}
-p {
-  color: black;
 }
 
 .formgroup:has(:required) {
