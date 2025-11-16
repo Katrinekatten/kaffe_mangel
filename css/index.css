@@ -1,0 +1,67 @@
+#logotype1 {
+  height: 50px;
+}
+
+#indexh1 {
+  max-width: fit-content;
+}
+
+/* newscard */
+#kaffealarm {
+  align-self: center;
+  background-color: #a5161b;
+  color: white;
+  text-align: center;
+  margin-bottom: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+/* buttons newscard */
+#nyhedsbtn1 {
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+#nyhedsbtn2 {
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+#nyhedsbtn3 {
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+/* POP UPS */
+#nyheds_popover1 {
+  width: 500px;
+  align-self: center;
+  margin-left: 500px;
+  border: none;
+  background-color: #f1ece1;
+}
+#nyheds_popover1:popover-open {
+  max-height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* #content1 {
+  overflow-y: auto;
+  max-height: 1200px;
+} */
+
+#nyheds_popover2 {
+  width: 500px;
+  align-self: center;
+  align-items: center;
+  margin-left: 500px;
+  border: none;
+}
+
+#nyheds_popover3 {
+  width: 500px;
+  align-self: center;
+  margin-left: 500px;
+  border: none;
+}

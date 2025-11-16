@@ -12,17 +12,27 @@
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Emergency Site</title>
   </head>
   <body id="frontpage">
     <header>
       <nav>
         <div id="logotype-wrapper" class="logo">
-          <a href="index.html"> LOGO-TYPE </a>
+          <a href="index.html">
+            <img id="logotype" src="logo/logotype.svg" alt="" />
+          </a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
+          <li><a class="menuItem" href="instruction.html">EFTERRETNINGSLINJER</a></li>
+          <li><a class="menuItem" href="register.html">Søg støtte</a></li>
         </ul>
         <button class="burger">
           <span class="line"></span>
@@ -33,10 +43,12 @@
     </header>
     <section id="main-disclamer">
       <div id="main-disclamer-content">
-        <img src="warning" alt="ICON" />
+        <img src="" alt="ICON" />
         <div>
-          <h1>OVERSKRIFT</h1>
-          <p class="sub">Underrubrik</p>
+          <h1 id="indexh1">Kaffe Mangel i Hele Danmark</h1>
+          <p class="sub">
+            Her finder du Kaffe Ministeriets officielle efterretningslinjer
+          </p>
         </div>
       </div>
     </section>
@@ -45,7 +57,7 @@
         <article class="daily_card">
           <img src="" alt="teaser_img" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Har du brug for støtte?</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
               magnam ducimus ea, sed minima asperiores.
@@ -56,7 +68,7 @@
         <article class="daily_card">
           <img src="" alt="teaser_img" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Hvem er Kaffe Ministeriet?</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
               magnam ducimus ea, sed minima asperiores.
@@ -66,23 +78,113 @@
         </article>
       </section>
       <section id="breaking">
+        <h2 id="kaffealarm">KAFFEALARM</h2>
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Falske bønner i omløb!</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
+          <img src="img/toxicbeans.png" alt="news_img" />
+          <!-- <a popovertarget="nyheds_popover" class="cta_btn" href="">Læs mere</a> -->
+          <button
+            popovertarget="nyheds_popover1"
+            id="nyhedsbtn1"
+            class="cta_btn"
+          >
+            Læs mere ->
+          </button>
+          <div popover id="nyheds_popover1">
+            <h3>KAFFEALARM! Falske bønner i omløb i Danmark</h3>
+            <p id="content1">
+              ☕️ Officiel meddelelse fra Kaffeberedskabet
+              <br />Kaffeberedskabet hæver beredskabsniveauet til niveau 3:
+              “Skum på toppen” efter meldinger om udbredt salg af falsk kaffe i
+              flere dele af landet.
+              <br />
+              Det oplyser Kaffeberedskabets pressetjeneste fredag formiddag.
+              Mistænkelige poser med “kaffe” i omløb Ifølge Kaffeberedskabets
+              overvågningsenhed cirkulerer der i øjeblikket flere produkter, som
+              udgiver sig for at være kaffe, men som i virkeligheden består af
+              ukendte plantedele, kornrester og i enkelte tilfælde maltede
+              kiksekrummer. <br />
+              Produkterne sælges primært via sociale medier og uofficielle
+              webshops under navne som “100% Pure Java Boost”, “Nordic Gold
+              Brew” og “Ægte Dansk Espresso, nu uden koffein”. <br />
+              Borgere opfordres til at udvise kaffemæssig agtpågivenhed og ikke
+              brygge ukendt materiale, uanset hvor kaffetør man måtte være.
+              <br />
+              <strong>Sådan genkender du falsk kaffe </strong> <br />For at
+              hjælpe befolkningen med at navigere i den aktuelle krise, udgiver
+              Kaffeberedskabet følgende retningslinjer: <br>
+              <ul>
+                <li> Kontrollér emballagen: Slørede etiketter, stavefejl og påståede “mirakelbønner” er klare
+              faresignaler.</li>
+                <li>Lav dufttest: Ægte kaffe dufter af håb og hverdag –
+              falsk kaffe lugter af desperation. </li>
+                <li>Køb ansvarligt: Kun forhandlere
+              med godkendt Kaffeberedskabsstempel bør benyttes.</li>
+                <li>Rapportér hændelser: Mistænkelige produkter kan anmeldes via
+              Kaffeberedskabets hotline: 116-KOP.</li>
+              </ul>
+             
+               <strong>Samarbejde på tværs af
+              myndigheder </strong><br>Kaffeberedskabet arbejder i tæt samarbejde med
+              Fødevarestyrelsen, Toldstyrelsen og Den Nationale Kaffeenhed (NKE)
+              for at spore de falske produkter. Der er aktuelt ingen tegn på
+              forsyningsfare, men situationen vurderes som “stærkt ubehagelig
+              for den almene kaffedrikker”.
+            </p>
+          </div>
         </article>
+
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+          <h3>Krisen spreder sig til Sverige og Tyskland</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
           <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <!-- <a class="cta_btn" href="">Læs mere</a> -->
+          <button
+            popovertarget="nyheds_popover2"
+            id="nyhedsbtn2"
+            class="cta_btn"
+          >
+            Læs mere ->
+          </button>
+          <div popover id="nyheds_popover2">
+            <h3>Krisen spreder sig til Sverige og Tyskland</h3>
+            <p>
+              De første rapporter fra Sverige viser, at kaffepanikken nu har
+              krydset Øresund. Flere svenske supermarkeder melder om danskere,
+              der er rejst over grænsen for at købe kaffe i store mængder, i
+              nogle tilfælde forklædt som “te-turister”. <br />Tyskland har som
+              reaktion indført midlertidig eksportstop på kaffe for at beskytte
+              egne forsyninger. <br />
+              Ifølge uofficielle kilder har også Norge hævet sit
+              Kaffesikkerhedsniveau til “Brun Alarm”.
+            </p>
+          </div>
         </article>
+
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Internationalt samarbejde under pres</h3>
+          <!-- <p>Lorem ipsum dolor sit, sed minima asperiores.</p> -->
+          <img src="img/debate.png" alt="news_img" />
+          <!-- <a class="cta_btn" href="">Læs mere</a> -->
+          <button
+            popovertarget="nyheds_popover3"
+            id="nyhedsbtn3"
+            class="cta_btn"
+          >
+            Læs mere ->
+          </button>
+          <div popover id="nyheds_popover3">
+            <h3>Internationalt samarbejde under pres</h3>
+            <p>
+              Kaffeberedskabet deltager i hastemøder med EU’s
+              Drikkevareberedskab og WHO’s World Coffee Organization (WCO) for
+              at forhandle adgang til nødforsyninger fra Sydamerika. Dog
+              vurderes situationen globalt som ustabil, da også Brasilien,
+              Vietnam og Etiopien rapporterer om markant lavere høst efter årets
+              “Store Ristningsfejl”.
+            </p>
+          </div>
         </article>
       </section>
     </main>
