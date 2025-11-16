@@ -51,3 +51,28 @@
 #cls-6 {
   fill: #5f4477;
 }
+#instructionh1 {
+  font-size: 60px;
+}
+
+#Overlever {
+  border: solid 2px #432919;
+  background-color: #726157;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#Sideeffekter {
+  border: solid 2px #432919;
+  background-color: #726157;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#Alternativer {
+  border: solid 2px #432919;
+  background-color: #726157;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
