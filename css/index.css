@@ -42,7 +42,7 @@
   background-color: #f1ece1;
 }
 #nyheds_popover1:popover-open {
-  max-height: 700px;
+  max-height: px;
   overflow-y: auto;
   overflow-x: hidden;
 }
