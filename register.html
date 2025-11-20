@@ -22,8 +22,10 @@
           <a href="index.html"> <img src="logo/logotype.svg" alt="" /> </a>
         </div>
         <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
+          <li>
+            <a class="menuItem" href="instruction.html">Retningslinjer </a>
+          </li>
+          <li><a class="menuItem" href="register.html">Søg støtte</a></li>
         </ul>
         <button class="burger">
           <span class="line"></span>
@@ -66,7 +68,7 @@
             <label for="fulde_navn"></label>
             <input type="text" id="fulde_navn" name="fulde_navn" required />
 
-            <h2>CPR-Nummer</h2>
+            <h2 id="cprheadline">CPR-Nummer</h2>
             <label for="cpr"></label>
             <input type="text" name="cpr" id="cpr" minlength="10" required />
           </section>
@@ -115,7 +117,7 @@
       </section>
     </main>
     <footer>
-      <nav class="some">
+      <!-- <nav class="some">
         <ul>
           <li><a href="">link</a></li>
           <li><a href="">link</a></li>
@@ -138,7 +140,7 @@
           <li><a href="">link</a></li>
           <li><a href="">link</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </footer>
     <script src="js/burger.js"></script>
     <script src="js/form.js"></script>

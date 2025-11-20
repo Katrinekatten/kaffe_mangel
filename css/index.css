@@ -1,5 +1,6 @@
 #logotype1 {
   height: 50px;
+  align-self: center;
 }
 
 #indexh1 {
@@ -17,7 +18,12 @@
   font-weight: 700;
   font-size: 32px;
 }
-/* buttons newscard */
+/* buttons */
+#dailycard_btn {
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
 #nyhedsbtn1 {
   color: white;
   border-radius: 5px;
@@ -33,6 +39,10 @@
   border-radius: 5px;
   box-shadow: 1px 1px 3px #000;
 }
+/* Dailycards */
+#logo_newscard {
+  align-content: center;
+}
 /* POP UPS */
 #nyheds_popover1 {
   width: 500px;
@@ -42,14 +52,10 @@
   background-color: #f1ece1;
 }
 #nyheds_popover1:popover-open {
-  max-height: px;
+  max-height: 500px;
   overflow-y: auto;
   overflow-x: hidden;
 }
-/* #content1 {
-  overflow-y: auto;
-  max-height: 1200px;
-} */
 
 #nyheds_popover2 {
   width: 500px;
