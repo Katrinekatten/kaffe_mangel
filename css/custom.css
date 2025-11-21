@@ -23,7 +23,7 @@
   --font-sub1-size: 48px;
   --font-h2-size: 32px uppercase;
   --font-h3-size: 32px --font-weight-bold;
-  --color-headline-bg: #000;
+  --color-headline-bg: #a5161b;
   --color-headline-text-page: ##ffffff;
 
   /* Tekst */
@@ -38,7 +38,7 @@
 
   /* Cards */
   --color-card-bg: #fff;
-  --color-cta-card-bg: #b67f81;
+  --color-cta-card-bg: #432919;
   /* news-cards */
   --color-news-bg: #c0a9d5;
   --color-news-bg-inverted: #fff;
@@ -64,6 +64,6 @@
 
   /* Infographics */
   --color-info-bg: none;
-  --color-infobox-1-bg: #cfcec6;
-  --color-infobox-2-bg: #969995;
+  --color-infobox-1-bg: #fff;
+  --color-infobox-2-bg: #c0a9d5;
 }

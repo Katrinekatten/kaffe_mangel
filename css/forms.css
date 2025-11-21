@@ -24,16 +24,22 @@
   padding: 0;
 }
 /* OVERSKRIFT */
-#h1webformular {
-  font-size: 48px;
-}
+
 /* FORMGROUP 1 */
 .formsection1 {
-  background-color: #b67f81;
+  background-color: #c0a9d5;
+  color: #432919;
+  font-weight: bold;
 }
 #labelformgroup1 {
   color: white;
-  font-size: 32px;
+  font-size: 26px;
+}
+#mig_selv {
+  color: #432919;
+}
+#paarorende {
+  color: #432919;
 }
 /* FORMGROUP 2 */
 #personligeoplysninger {
@@ -42,12 +48,20 @@
   color: #432919;
   font-weight: 800;
   font-style: bold;
+  font-size: larger;
 }
 #fuldenavnheadline {
   color: #432919;
   font-family: "Montserrat", sans-serif;
   font-weight: 1000;
 }
+#cprheadline {
+  margin-top: 10px;
+  color: #432919;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+}
+
 #fulde_navn {
   background-color: white;
   border: none;
@@ -60,18 +74,20 @@
 }
 /* FORMGROUP 3 */
 #antal_kaffe {
-  background-color: #f2c045;
+  margin-top: 10px;
+  background-color: #a5161b;
   border-radius: 0%;
-  color: #432919;
-  border: solid #5f4477;
+  color: #fff;
+  border: #a5161b;
   width: 200px;
+  padding: 5px;
 }
 #formgroup3_h2 {
   color: #432919;
 }
 
 #formgroup3 {
-  background-color: #b67f81;
+  background-color: #c0a9d5;
 }
 .grid_submit {
   display: grid;
@@ -80,10 +96,13 @@
 }
 /* OUTPUTBOX */
 .bekraeftelse {
-  background-color: #f2c045;
+  background-color: #a5161b;
   height: 250px;
-  border: #5f4477 solid 2px;
-  color: #432919;
+  color: #fff;
+}
+.bekraeftelse h2 {
+  text-align: center;
+  font-size: larger;
 }
 #vibehandlernudinsag {
   font-style: italic;
@@ -95,12 +114,12 @@ form {
 }
 /* KNAP */
 #knap {
-  color: #432919;
-  border: solid 4px #5f4477;
+  color: #d7d1c5;
+  border: solid 4px #726157;
   width: 150px;
   height: 75px;
   border-radius: 5px;
-  background-color: #f2c045;
+  background-color: #432919;
   font-size: 32px;
   align-self: center;
   justify-content: center;
@@ -111,7 +130,7 @@ button:hover {
   /* Hover states */
 }
 button:active {
-  outline: 5px solid #5f4477;
+  outline: 5px solid #726157;
   /* Pressed states */
 }
 

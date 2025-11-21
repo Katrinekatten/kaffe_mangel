@@ -40,39 +40,78 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
-
+.cls-5 {
+  fill: #434343;
+}
+.coffeebean {
+  fill: #432919;
+}
 .color_change {
   fill: #5f4477;
 }
-
+.upscale {
+  scale: 50%;
+}
 .kaffegone {
   display: none;
 }
-#cls-6 {
-  fill: #5f4477;
-}
+
 #instructionh1 {
   font-size: 60px;
 }
 
 #Overlever {
-  border: solid 2px #432919;
-  background-color: #726157;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: var(--color-cta-card-bg);
+  color: var(--color-text-inverted);
+  text-decoration: none;
+  width: max-content;
+  border-radius: var(--border-radius);
+  border: none;
   color: white;
-  padding: 10px;
   border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
 }
+
 #Sideeffekter {
-  border: solid 2px #432919;
-  background-color: #726157;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: var(--color-cta-card-bg);
+  color: var(--color-text-inverted);
+  text-decoration: none;
+  width: max-content;
+  border-radius: var(--border-radius);
+  border: none;
   color: white;
-  padding: 10px;
   border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
 }
 #Alternativer {
-  border: solid 2px #432919;
-  background-color: #726157;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: var(--color-cta-card-bg);
+  color: var(--color-text-inverted);
+  text-decoration: none;
+  width: max-content;
+  border-radius: var(--border-radius);
+  border: none;
   color: white;
-  padding: 10px;
   border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block; /* eller flex/grid alt efter hvad du vil */
+}
+
+#imginfobox {
+  width: 335px;
+}
+#h1infotext {
+  color: #fff;
 }
